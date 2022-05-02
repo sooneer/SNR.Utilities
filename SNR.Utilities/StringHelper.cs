@@ -1,4 +1,4 @@
-﻿namespace Utilities;
+﻿namespace SNR.Utilities;
 
 public static class StringHelper
 {

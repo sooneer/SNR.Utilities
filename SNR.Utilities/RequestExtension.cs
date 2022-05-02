@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Net;
 
-namespace Utilities;
+namespace SNR.Utilities;
 
 public static class RequestExtension
 {

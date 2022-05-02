@@ -16,12 +16,12 @@
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>www.nuget.org/packages/SNR.Utilities</PackageProjectUrl>
-    <PackageIcon>SNR.Utilities.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
     <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\readme.md">
+    <None Include="..\icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
