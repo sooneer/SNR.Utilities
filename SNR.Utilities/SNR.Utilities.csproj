@@ -5,16 +5,27 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
-    <PackageId>SNR.$(AssemblyName)</PackageId>
+    <PackageId>$(AssemblyName)</PackageId>
     <Authors>sonerist</Authors>
-    <Product>SNR.$(AssemblyName)</Product>
+    <Product>$(AssemblyName)</Product>
     <Description>SNR is a custom dotnet framework for do easy your project.</Description>
     <Copyright>sonerist</Copyright>
     <RepositoryUrl>https://github.com/sooneer/SNR.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>SNR;Utilities</PackageTags>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>www.nuget.org/packages/SNR.Utilities</PackageProjectUrl>
+    <PackageIcon>SNR.Utilities.png</PackageIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
