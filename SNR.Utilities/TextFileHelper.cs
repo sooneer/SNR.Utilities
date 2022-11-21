@@ -12,6 +12,7 @@ public static class TextFileHelper
     {
         string directoryPath = AppDomain.CurrentDomain.BaseDirectory + "logs\\";
         directoryPath = directoryPath.Replace("\\bin\\Debug\\net6.0", "");
+        directoryPath = directoryPath.Replace("\\bin\\Debug\\net7.0", "");
         string filePath = directoryPath + DateTime.Now.ToString("yyyy-MM-dd") + "_error.log";
 
         if (!Directory.Exists(directoryPath))
